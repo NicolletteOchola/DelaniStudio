@@ -31,4 +31,13 @@
   padding: 40px;
 }
 
+.services {
+  background-image: url("/images/background2.jpg");
+  padding: 110px;
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+  background-repeat: no-repeat;
+
+}
 
