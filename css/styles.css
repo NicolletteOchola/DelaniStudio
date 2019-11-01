@@ -4,12 +4,13 @@
   text-align: center;
   color: aliceblue;
   background-repeat: no-repeat;
-  padding-top: 16%;
-  
+  padding-top: 14%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .landing h1 {
-  line-height: 150%;
+  line-height: 200%;
 }
 
 .landing p {
@@ -23,6 +24,11 @@
 .mouse {
   padding-top: 120px;
   padding-bottom: 50px;
+}
+
+.aboutUs {
+  text-align: center;
+  padding: 40px;
 }
 
 
