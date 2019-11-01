@@ -51,3 +51,11 @@
   margin-right: 100px;
 }
 
+.column {
+  width: 25%;
+  padding: 15px;
+}
+
+.column img {
+  size: 100px;
+}
