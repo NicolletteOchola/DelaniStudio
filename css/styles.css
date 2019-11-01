@@ -51,11 +51,17 @@
   margin-right: 100px;
 }
 
+.portfolio {
+  text-align: center;
+}
 .column {
+  float: left;
   width: 25%;
   padding: 15px;
+  margin left: 0px;
 }
 
 .column img {
-  size: 100px;
+  size: 50%;
+  margin-left: 50px;
 }
