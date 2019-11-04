@@ -1,4 +1,4 @@
-// Hide and show the 'what we do' section
+// USER INTERFACE (Front end logic)
 
 $(document).ready(function(){
     $("#design").click(function(){
@@ -94,6 +94,8 @@ $(document).ready(function(){
   $(".image9").mouseleave(function() {
     $("#work9").hide();
   });
+
+  // BUSINESS (Back end) LOGIC
     var message = document.getElementById("message");
   message.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {

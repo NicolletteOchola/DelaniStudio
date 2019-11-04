@@ -47,8 +47,6 @@
 
 .whatWeDo img {
   padding: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 #designText {
@@ -115,27 +113,22 @@
  }
  
  #name {
-   width: 45vh;
-   margin-left: 50vh;
+   width: 30vw;
+   margin-left: 2vw;
  }
 
  #email {
-width: 45vh;
+width: 30vw;
  }
 
  #message {
-  width: 100vh;
+  width: 50vw;
   margin: 30px; 
-  margin-left: 45vh;
   color: aliceblue;
+  margin-left: 7vw;
 }
-
-#button {
-  margin-left: 50vh;
-}
-
 .socialMedia {
-  margin-left: 70vh;
+  margin-left: 60vw;
   padding-top: 30px;
 }
 
