@@ -51,10 +51,20 @@
   margin-right: 100px;
 }
 
-.whatWeDo p {
+#designText {
   display: none;
+  color: black;
 }
 
+#devText {
+  display: none;
+  color: black;
+}
+
+#productDevText {
+  display: none;
+  color: black; 
+}
 #portfolio {
   text-align: center;
   padding: 50px;

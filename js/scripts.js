@@ -1,0 +1,38 @@
+$(document).ready(function(){
+  $("#design").click(function(){
+    $("#designText").show();
+  });
+$("#design").click(function(){
+  $("#design").hide();
+  });
+$("#designText").click(function(){
+  $("#design").show();
+  });
+$("#designText").click(function(){
+  $("#designText").hide();
+});
+  $("#dev").click(function(){
+  $("#devText").show();
+  });
+$("#dev").click(function(){
+  $("#dev").hide();
+});
+$("#devText").click(function(){
+  $("#dev").show();
+  });
+$("#devText").click(function(){
+  $("#devText").hide();
+}); 
+$("#productDev").click(function(){
+  $("#productDevText").show();
+  });
+$("#productDev").click(function(){
+  $("#productDev").hide();
+});
+$("#productDevText").click(function(){
+  $("#productDev").show();
+});
+$("#productDevText").click(function() {
+  $("#productDevText").hide();
+});
+});
