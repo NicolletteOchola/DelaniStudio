@@ -11,7 +11,7 @@
   <title>Delani Tudio</title>
 </head>
 <body>
-  <div class="container-fluid" style="overflow-x:hidden !important;">
+  <div class= style="overflow-x:hidden !important;">
     <div class="landing">
       <div class="logo">
         <img src="images/logo.png" alt="">
@@ -50,18 +50,27 @@
         <div class="col-md-4">
           <img src="images/designIcon.png" alt="designIcon">
           <h5>DESIGN</h5>
+          <p>
+            Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+          </p>
         </div>
         <div class="col-md-4">
             <img src="images/devIcon.png" alt="devIcon">
             <h5>DEVELOPMENT</h5>
+            <p>
+              All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair 
+            </p>
         </div>
         <div class="col-md-4">
             <img src="images/productIcon.png" alt="productIcon">
             <h5>PRODUCT DEVELOPMENT</h5>
+            <p>
+              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.
+            </p>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="portfolio">
       <h2>PORTFOLIO</h2>
       <div class="row">
         <div class="column">
@@ -95,19 +104,19 @@
       <div class="row col-md-12 bg-transparent">
         <form action="post" class="form">
           <div class="col-md-12">
-            <div class="col-md-4">
-              <input type="text" placeholder="Name" class="form-control bg-transparent" >
+            <div class="row">
+               <div class="col">
+                  <input type="text" class="form-control bg-transparent" placeholder="Name" id="name">
+                </div>
+                <div class="col">
+                  <input type="email" class="form-control bg-transparent" placeholder="Email" id="email">
+                </div>
             </div>
-            <div class="col-md-4">
-             <input type="email" placeholder="Email" class="form-control bg-transparent" >
-            </div>
+          <div class="col-md-4">
+            <textarea name="message" class="form-control textarea bg-transparent" cols="100" rows="10" placeholder="Type your message here" required id="message"></textarea>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <textarea name="message" class="form-control textarea bg-transparent" cols="100" rows="10" placeholder="Type your message here" required></textarea>
-            </div>
           </div>
-           <button type="button" class="btn btn-dark">Submit</button>
+           <button type="button" class="btn btn-dark" id="button">Submit</button>
           </div>
         </form>
       </div>

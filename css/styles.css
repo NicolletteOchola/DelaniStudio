@@ -51,6 +51,13 @@
   margin-right: 100px;
 }
 
+.whatWeDo p {
+  display: none;
+}
+
+#portfolio {
+  text-align: center;
+}
 .container {
   text-align: center;
   margin: 0;
@@ -69,9 +76,52 @@
  background-image: url(../images/background3.jpg);
  height: 100vh;
  background-repeat: no-repeat;
-background-size: cover;
+ background-size: cover;
+ padding: 80px;
   }
 
 .container-fluid {
   margin: 0px;
+}
+
+.contactUs {
+  padding: 50px;
+}
+.contactUs h2 {
+  padding: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+ .contactUs form {
+   text-align: center;
+ }
+ 
+ #name {
+   width: 45vh;
+   margin-left: 50vh;
+ }
+
+ #email {
+width: 45vh;
+ }
+
+ #message {
+  width: 100vh;
+  margin: 30px; 
+  margin-left: 45vh;
+  color: aliceblue;
+}
+
+#button {
+  margin-left: 50vh;
+}
+
+.socialMedia {
+  margin-left: 70vh;
+  padding-top: 30px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
 }
