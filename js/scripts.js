@@ -35,4 +35,5 @@ $("#productDevText").click(function(){
 $("#productDevText").click(function() {
   $("#productDevText").hide();
 });
+$()
 });

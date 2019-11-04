@@ -54,16 +54,19 @@
 #designText {
   display: none;
   color: black;
+  padding: 30px;
 }
 
 #devText {
   display: none;
   color: black;
+  padding: 30px;
 }
 
 #productDevText {
   display: none;
   color: black; 
+  padding: 30px;
 }
 #portfolio {
   text-align: center;
@@ -139,4 +142,7 @@ width: 45vh;
 .footer {
   padding: 20px;
   text-align: center;
+}
+.work1, .work2,.work3,.work4,.work5,.work6,.work7,.work8, p {
+  display: none;
 }
