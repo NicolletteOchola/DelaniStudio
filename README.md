@@ -2,7 +2,7 @@
 This is a website for a company that deals with dsign, product management and developmet. It has a section describing the company and a section that showcases its previous work. At the end of the page, it has a simple form that allows the user to enter their details and sends a message to the company,
 
 <img src="images/page1.png">
-<img src="images/page2.png">
+<img src="images/page.png">
 <img src="images/page3.png">
 <img src="images/page4.png">
 
