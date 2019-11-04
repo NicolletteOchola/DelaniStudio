@@ -92,22 +92,27 @@
     </div>
     <div class="container-full contactUs bg-transparent" id="contact">
       <h2>CONTACT US</h2>
-          <div class="row bg-transparent col-md-12">
-            <form role="form" class="contactUs">
-              <div class="form">
-                  <input type="text" class="form-control" placeholder="Name">
-              </div>
-            </form>
-            <div class="col">
+      <div class="row col-md-12 bg-transparent">
+        <form action="post" class="form">
+          <div class="col-md-12">
+            <div class="col-md-4">
+              <input type="text" placeholder="Name" class="form-control bg-transparent" >
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-            <div class="row">
-              <input type="text" name="" id="">
+            <div class="col-md-4">
+             <input type="email" placeholder="Email" class="form-control bg-transparent" >
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-4">
+              <textarea name="message" class="form-control textarea bg-transparent" cols="100" rows="10" placeholder="Type your message here" required></textarea>
+            </div>
+          </div>
+           <button type="button" class="btn btn-dark">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
+    <div class="socialMedia"></div>
   </div>
 </body>
 </html>
