@@ -146,8 +146,8 @@ width: 45vh;
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
   display: none;
   background-color: rgba(238, 234, 218, 0.753);
-  width:56%;
-  height: 83%;
+  width:57%;
+  height: 84%;
   position: relative;
   transform: translate(-51%, -39%);
   position: absolute;
@@ -157,7 +157,3 @@ width: 45vh;
   text-align: center;
 
 }
-
-#work1 p, #work2 p, #work3 p, #work4 p, #work5 p, #work6 p, #work7 p, #work8 p {
-  
-} 
