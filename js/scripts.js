@@ -1,3 +1,5 @@
+// Hide and show the 'what we do' section
+
 $(document).ready(function(){
   $("#design").click(function(){
     $("#designText").show();
@@ -83,7 +85,14 @@ $(".image7").mouseleave(function() {
 $(".image8").hover(function() {
   $("#work8").show();
 });
+$(".image8").mouseleave(function() {
+  $("#work8").hide();
+});
+$(".image9").hover(function() {
+  $("#work9").show();
+});
 $(".image9").mouseleave(function() {
   $("#work9").hide();
 });
+
 });

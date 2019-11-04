@@ -145,4 +145,10 @@ width: 45vh;
 }
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
   display: none;
+  background-color: rgba(238, 234, 218, 0.219);
+  width:90%;
+  margin-top: 35%;
+  margin-left: 5%;
+  height: 90%;
+  position: relative;
 }
