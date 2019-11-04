@@ -51,8 +51,9 @@
   margin-right: 100px;
 }
 
-.portfolio {
+.container {
   text-align: center;
+  margin: 0;
 }
 .column {
   float: left;
@@ -63,5 +64,14 @@
 
 .column img {
   size: 50%;
-  margin-left: 50px;
+}
+#contact {
+ background-image: url(../images/background3.jpg);
+ height: 100vh;
+ background-repeat: no-repeat;
+background-size: cover;
+  }
+
+.container-fluid {
+  margin: 0px;
 }

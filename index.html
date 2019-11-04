@@ -11,6 +11,7 @@
   <title>Delani Tudio</title>
 </head>
 <body>
+  <div class="container-fluid" style="overflow-x:hidden !important;">
     <div class="landing">
       <div class="logo">
         <img src="images/logo.png" alt="">
@@ -45,51 +46,68 @@
     </div>
     <div class="whatWeDo">
       <h2>WHAT WE DO</h2>
-      <img src="images/designIcon.png" alt="designIcon">
-      <img src="images/devIcon.png" alt="devIcon">
-      <img src="images/productIcon.png" alt="productIcon">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/designIcon.png" alt="designIcon">
+          <h5>DESIGN</h5>
+        </div>
+        <div class="col-md-4">
+            <img src="images/devIcon.png" alt="devIcon">
+            <h5>DEVELOPMENT</h5>
+        </div>
+        <div class="col-md-4">
+            <img src="images/productIcon.png" alt="productIcon">
+            <h5>PRODUCT DEVELOPMENT</h5>
+        </div>
+      </div>
     </div>
-    <div class="portfolio">
+    <div class="container-fluid">
       <h2>PORTFOLIO</h2>
       <div class="row">
         <div class="column">
-            <img src="images/1.jpg" alt="1" height="75%">
+            <img src="images/1.jpg" alt="1">
         </div>
         <div class="column">
-            <img src="images/2.jpg" alt="2" height="75%">
+            <img src="images/2.jpg" alt="2">
         </div>
         <div class="column">
-            <img src="images/3.jpg" alt="3" height="75%">
+            <img src="images/3.jpg" alt="3">
         </div>
         <div class="column">
-            <img src="images/4.jpg" alt="4" height="75%">
+            <img src="images/4.jpg" alt="4">
         </div>
         <div class="column">
-            <img src="images/5.jpg" alt="5" height="75%">
+            <img src="images/5.jpg" alt="5">
         </div>
         <div class="column">
-            <img src="images/6.jpg" alt="6" height="75%">
+            <img src="images/6.jpg" alt="6">
         </div>
         <div class="column">
-            <img src="images/7.jpg" alt="7" height="75%">
+            <img src="images/7.jpg" alt="7">
         </div>
         <div class="column">
-            <img src="images/8.jpg" alt="8" height="75%"y>
+            <img src="images/8.jpg" alt="8">
         </div>
-
       </div>
     </div>
-    <div class="contactUs">
+    <div class="container-full contactUs bg-transparent" id="contact">
       <h2>CONTACT US</h2>
-      <form>
-        Name:
-        <input type="text" name="name" placeholder="Name">
-        Email:
-        <input type="text" name="email" placeholder="Email"><br>
-        <div class="msg">
-          <textarea class="field" placeholder="Your message here..."></textarea>
-        </div>
-      </form>
+          <div class="row bg-transparent col-md-12">
+            <form role="form" class="contactUs">
+              <div class="form">
+                  <input type="text" class="form-control" placeholder="Name">
+              </div>
+            </form>
+            <div class="col">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="row">
+              <input type="text" name="" id="">
+            </div>
+          </div>
     </div>
+  </div>
 </body>
 </html>
