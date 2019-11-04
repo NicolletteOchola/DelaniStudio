@@ -57,6 +57,11 @@
 
 #portfolio {
   text-align: center;
+  padding: 50px;
+}
+#portfolio img {
+  padding-top: 40px;
+  margin-left: 0;
 }
 .container {
   text-align: center;
