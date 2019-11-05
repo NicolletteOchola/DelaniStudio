@@ -16,7 +16,9 @@ Nicollette Ochola
 
 ## Set up instructions
 - Have a good internet connection
-- Copy the code onto JS fiddle or the JS console
+- Fork the ripository to your own git hub account
+- Clone the repository to your local machine
+- Open the folder, index.html on your browser 
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT
 - Diaplays an overview of the company from what they do and the work the have done.
