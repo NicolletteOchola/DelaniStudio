@@ -127,6 +127,10 @@ width: 30vw;
   color: aliceblue;
   margin-left: 7vw;
 }
+.col p {
+  color: aliceblue;
+  padding: 20px;
+}
 .socialMedia {
   margin-left: 60vw;
   padding-top: 30px;
